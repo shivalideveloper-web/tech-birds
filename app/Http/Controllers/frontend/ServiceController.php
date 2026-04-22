@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class ServiceController extends Controller
 {
-    public function service(Request $request) {
+     public function service(Request $request) {
         return view('frontend.service.service');
     }
 }
