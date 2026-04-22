@@ -10,9 +10,20 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
-                        <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
-                        <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
-                        <a href="{{ route('service') }}" class="nav-item nav-link">Services</a>
+                        <a href="{{ route('home') }}" 
+                            class="nav-item nav-link {{ request()->routeIs('home') ? 'active' : '' }}">
+                            Home
+                            </a>
+
+                            <a href="{{ route('about') }}" 
+                            class="nav-item nav-link {{ request()->routeIs('about') ? 'active' : '' }}">
+                            About
+                            </a>
+
+                            <a href="{{ route('service') }}" 
+                            class="nav-item nav-link {{ request()->routeIs('service') ? 'active' : '' }}">
+                            Services
+                            </a>
                         <a href="project.html" class="nav-item nav-link">Projects</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
