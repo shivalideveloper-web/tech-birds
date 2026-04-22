@@ -53,7 +53,7 @@
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.2s">
                             <div class="service-item h-100 d-flex flex-column justify-content-center bg-primary">
                                 <a href="" class="service-img position-relative mb-4">
-                                    <img class="img-fluid w-100" src="img/service-1.jpg" alt="">
+                                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/service-1.jpg')}}" alt="">
                                     <h3>Interior Design</h3>
                                 </a>
                                 <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
@@ -63,7 +63,7 @@
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.4s">
                             <div class="service-item h-100 d-flex flex-column justify-content-center bg-light">
                                 <a href="" class="service-img position-relative mb-4">
-                                    <img class="img-fluid w-100" src="img/service-2.jpg" alt="">
+                                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/service-2.jpg')}}" alt="">
                                     <h3>Implement</h3>
                                 </a>
                                 <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
@@ -73,7 +73,7 @@
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.6s">
                             <div class="service-item h-100 d-flex flex-column justify-content-center bg-light">
                                 <a href="" class="service-img position-relative mb-4">
-                                    <img class="img-fluid w-100" src="img/service-3.jpg" alt="">
+                                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/service-3.jpg')}}" alt="">
                                     <h3>Renovation</h3>
                                 </a>
                                 <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
@@ -83,7 +83,7 @@
                         <div class="col-md-6 wow fadeIn" data-wow-delay="0.8s">
                             <div class="service-item h-100 d-flex flex-column justify-content-center bg-primary">
                                 <a href="" class="service-img position-relative mb-4">
-                                    <img class="img-fluid w-100" src="img/service-4.jpg" alt="">
+                                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/service-4.jpg')}}" alt="">
                                     <h3>Commercial</h3>
                                 </a>
                                 <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
@@ -108,7 +108,7 @@
                             <div class="row g-5 align-items-center">
                                 <div class="col-md-6">
                                     <div class="testimonial-img">
-                                        <img class="img-fluid" src="img/testimonial-1.jpg" alt="">
+                                        <img class="img-fluid" src="{{asset('frontend/assets/img/testimonial-1.jpg')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -127,7 +127,7 @@
                             <div class="row g-5 align-items-center">
                                 <div class="col-md-6">
                                     <div class="testimonial-img">
-                                        <img class="img-fluid" src="img/testimonial-2.jpg" alt="">
+                                        <img class="img-fluid" src="{{asset('frontend/assets/img/testimonial-2.jpg')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -146,7 +146,7 @@
                             <div class="row g-5 align-items-center">
                                 <div class="col-md-6">
                                     <div class="testimonial-img">
-                                        <img class="img-fluid" src="img/testimonial-3.jpg" alt="">
+                                        <img class="img-fluid" src="{{asset('frontend/assets/img/testimonial-3.jpg')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -174,7 +174,7 @@
         <div class="container p-0">
             <div class="row g-0 align-items-center">
                 <div class="col-md-5 ps-lg-0 text-start wow fadeIn" data-wow-delay="0.2s">
-                    <img class="img-fluid w-100" src="img/newsletter.jpg" alt="">
+                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/newsletter.jpg')}}" alt="">
                 </div>
                 <div class="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-5">
