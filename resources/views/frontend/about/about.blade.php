@@ -31,10 +31,10 @@
                 <div class="col-lg-6">
                     <div class="row">
                         <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="img/about-1.jpg" alt="">
+                            <img class="img-fluid" src="{{asset('frontend/assets/img/about-1.jpg')}}" alt="">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
-                            <img class="img-fluid h-75" src="img/about-2.jpg" alt="">
+                            <img class="img-fluid h-75" src="{{asset('frontend/assets/img/about-2.jpg')}}" alt="">
                             <div class="h-25 d-flex align-items-center text-center bg-primary px-4">
                                 <h4 class="text-white lh-base mb-0">Award Winning Studio Since 1990</h4>
                             </div>
@@ -81,7 +81,7 @@
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
                     <div class="team-item position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                        <img class="img-fluid w-100" src="{{asset('frontend/assets/img/team-1.jpg')}}" alt="">
                         <div class="team-overlay">
                             <small class="mb-2">Architect</small>
                             <h4 class="lh-base text-light">Boris Johnson</h4>
@@ -104,7 +104,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
                     <div class="team-item position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="{{asset('frontend/assets/img/team-2.jpg')}}" alt="">
                         <div class="team-overlay">
                             <small class="mb-2">Architect</small>
                             <h4 class="lh-base text-light">Donald Pakura</h4>
@@ -127,7 +127,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
                     <div class="team-item position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                        <img class="img-fluid w-100" src="{{asset('frontend/assets/img/team-3.jpg')}}" alt="">
                         <div class="team-overlay">
                             <small class="mb-2">Architect</small>
                             <h4 class="lh-base text-light">Bradley Gordon</h4>
@@ -150,7 +150,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
                     <div class="team-item position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                        <img class="img-fluid w-100" src="{{asset('frontend/assets/img/team-4.jpg')}}" alt="">
                         <div class="team-overlay">
                             <small class="mb-2">Architect</small>
                             <h4 class="lh-base text-light">Alexander Bell</h4>
@@ -225,7 +225,7 @@
         <div class="container p-0">
             <div class="row g-0 align-items-center">
                 <div class="col-md-5 ps-lg-0 text-start wow fadeIn" data-wow-delay="0.2s">
-                    <img class="img-fluid w-100" src="img/newsletter.jpg" alt="">
+                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/newsletter.jpg')}}" alt="">
                 </div>
                 <div class="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-5">
