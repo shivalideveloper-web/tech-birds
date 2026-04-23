@@ -2,6 +2,7 @@
 @section('content')
 
 
+
     <!-- Hero Start -->
     <div class="container-fluid pb-5 bg-primary hero-header">
         <div class="container py-5">
@@ -13,7 +14,7 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center justify-content-lg-end mb-0">
                             <li class="breadcrumb-item"><a class="text-primary" href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a class="text-primary" href="#">Pages</a></li>
+                            {{-- <li class="breadcrumb-item"><a class="text-primary" href="#">Pages</a></li> --}}
                             <li class="breadcrumb-item text-secondary active" aria-current="page">Contact</li>
                         </ol>
                     </nav>
@@ -78,7 +79,7 @@
         <div class="container p-0">
             <div class="row g-0 align-items-center">
                 <div class="col-md-5 ps-lg-0 text-start wow fadeIn" data-wow-delay="0.2s">
-                    <img class="img-fluid w-100" src="img/newsletter.jpg" alt="">
+                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/newsletter.jpg')}}" alt="">
                 </div>
                 <div class="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-5">
@@ -96,4 +97,5 @@
         </div>
     </div>
     <!-- Newsletter End -->
+
 @endsection
