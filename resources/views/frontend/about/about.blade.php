@@ -31,10 +31,10 @@
                 <div class="col-lg-6">
                     <div class="row">
                         <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="{{asset('frontend/assets/img/about-1.jpg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('frontend/assets/img/planning.jpg')}}" alt="">
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
-                            <img class="img-fluid h-75" src="{{asset('frontend/assets/img/about-2.jpg')}}" alt="">
+                            <img class="img-fluid h-75" src="{{asset('frontend/assets/img/designing.png')}}" alt="">
                             <div class="h-25 d-flex align-items-center text-center bg-primary px-4">
                                 <h4 class="text-white lh-base mb-0">We Build Online Presence</h4>
                             </div>
