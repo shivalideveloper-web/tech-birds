@@ -77,7 +77,7 @@
                         <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
                             <img class="img-fluid h-75" src="{{asset('frontend/assets/img/about-2.jpg')}}" alt="">
                             <div class="h-25 d-flex align-items-center text-center bg-primary px-4">
-                                <h4 class="text-white lh-base mb-0">We Power Your Online Presence</h4>
+                                <h4 class="text-white lh-base mb-0">We Build Online Presence</h4>
                             </div>
                         </div>
                     </div>
