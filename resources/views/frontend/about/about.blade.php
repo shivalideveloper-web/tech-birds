@@ -80,148 +80,135 @@
 
 
     <!-- Team Start -->
-    <div class="container-fluid bg-light py-5">
-        <div class="container py-5">
-            <h1 class="mb-5">Our Professional <span class="text-uppercase text-primary bg-light px-2">Designers</span>
-            </h1>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="team-item position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="{{asset('frontend/assets/img/team-1.jpg')}}" alt="">
-                        <div class="team-overlay">
-                            <small class="mb-2">Architect</small>
-                            <h4 class="lh-base text-light">Boris Johnson</h4>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                                <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="team-item position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="{{asset('frontend/assets/img/team-2.jpg')}}" alt="">
-                        <div class="team-overlay">
-                            <small class="mb-2">Architect</small>
-                            <h4 class="lh-base text-light">Donald Pakura</h4>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                                <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="team-item position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="{{asset('frontend/assets/img/team-3.jpg')}}" alt="">
-                        <div class="team-overlay">
-                            <small class="mb-2">Architect</small>
-                            <h4 class="lh-base text-light">Bradley Gordon</h4>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                                <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="team-item position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="{{asset('frontend/assets/img/team-4.jpg')}}" alt="">
-                        <div class="team-overlay">
-                            <small class="mb-2">Architect</small>
-                            <h4 class="lh-base text-light">Alexander Bell</h4>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                                <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </div>
+     <div class="container-fluid bg-light py-5">
+    <div class="container py-5">
+        <h1 class="mb-5">
+            Our Expert <span class="text-uppercase text-primary bg-light px-2">IT Team</span>
+        </h1>
+
+        <div class="row g-4">
+
+            <!-- Member 1 -->
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                <div class="team-item position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/team-1.jpg')}}" alt="">
+                    <div class="team-overlay">
+                        <small class="mb-2">Website Designer</small>
+                        <h4 class="lh-base text-light">Rahul Sharma</h4>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Member 2 -->
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                <div class="team-item position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/team-2.jpg')}}" alt="">
+                    <div class="team-overlay">
+                        <small class="mb-2">Web Developer</small>
+                        <h4 class="lh-base text-light">Priya Verma</h4>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Member 3 -->
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                <div class="team-item position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/team-3.jpg')}}" alt="">
+                    <div class="team-overlay">
+                        <small class="mb-2">SEO Manager</small>
+                        <h4 class="lh-base text-light">Amit Singh</h4>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Member 4 -->
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                <div class="team-item position-relative overflow-hidden">
+                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/team-4.jpg')}}" alt="">
+                    <div class="team-overlay">
+                        <small class="mb-2">Graphics Designer</small>
+                        <h4 class="lh-base text-light">Neha Kapoor</h4>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-sm-square border-2 me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
+</div>
     <!-- Team End -->
 
 
     <!-- Feature Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="text-center wow fadeIn" data-wow-delay="0.1s">
-                <h1 class="mb-5">Why People <span class="text-uppercase text-primary bg-light px-2">Choose Us</span></h1>
-            </div>
-            <div class="row g-5 align-items-center text-center">
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                    <i class="fa fa-calendar-alt fa-5x text-primary mb-4"></i>
-                    <h4>25+ Years Experience</h4>
-                    <p class="mb-0">Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                    <i class="fa fa-tasks fa-5x text-primary mb-4"></i>
-                    <h4>Best Interior Design</h4>
-                    <p class="mb-0">Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                    <i class="fa fa-pencil-ruler fa-5x text-primary mb-4"></i>
-                    <h4>Innovative Architects</h4>
-                    <p class="mb-0">Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                    <i class="fa fa-user fa-5x text-primary mb-4"></i>
-                    <h4>Customer Satisfaction</h4>
-                    <p class="mb-0">Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                    <i class="fa fa-hand-holding-usd fa-5x text-primary mb-4"></i>
-                    <h4>Budget Friendly</h4>
-                    <p class="mb-0">Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                    <i class="fa fa-check fa-5x text-primary mb-4"></i>
-                    <h4>Sustainable Material</h4>
-                    <p class="mb-0">Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
-                </div>
-            </div>
+     <div class="container-fluid py-5">
+       <div class="container">
+    <div class="text-center wow fadeIn" data-wow-delay="0.1s">
+        <h1 class="mb-5">Why Clients <span class="text-uppercase text-primary bg-light px-2">Choose Us</span></h1>
+    </div>
+
+    <div class="row g-5 align-items-center text-center">
+
+        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+            <i class="fa fa-code fa-5x text-primary mb-4"></i>
+            <h4>Expert Development Team</h4>
+            <p class="mb-0">We deliver high-quality, scalable and secure web development solutions using modern technologies.</p>
         </div>
+
+        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+            <i class="fa fa-paint-brush fa-5x text-primary mb-4"></i>
+            <h4>Creative UI/UX Design</h4>
+            <p class="mb-0">We design visually stunning and user-friendly interfaces that enhance user engagement and experience.</p>
+        </div>
+
+        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+            <i class="fa fa-lightbulb fa-5x text-primary mb-4"></i>
+            <h4>Innovative IT Solutions</h4>
+            <p class="mb-0">We build smart digital solutions that help businesses grow and stay ahead in the digital world.</p>
+        </div>
+
+        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+            <i class="fa fa-users fa-5x text-primary mb-4"></i>
+            <h4>Client Satisfaction</h4>
+            <p class="mb-0">We focus on delivering results that meet client expectations with long-term support and trust.</p>
+        </div>
+
+        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+            <i class="fa fa-dollar-sign fa-5x text-primary mb-4"></i>
+            <h4>Affordable Pricing</h4>
+            <p class="mb-0">We offer cost-effective IT services without compromising on quality and performance.</p>
+        </div>
+
+        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+            <i class="fa fa-shield-alt fa-5x text-primary mb-4"></i>
+            <h4>Reliable & Secure Solutions</h4>
+            <p class="mb-0">We ensure secure, stable and reliable digital systems for your business growth.</p>
+        </div>
+
+    </div>
+</div>
     </div>
     <!-- Feature End -->
 
@@ -242,7 +229,7 @@
                             <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-2 me-2"><i
                                     class="fa fa-paper-plane text-primary fs-4"></i></button>
                         </div>
-                        <p class="mb-0">Diam sed sed dolor stet amet eirmod</p>
+                        {{-- <p class="mb-0">Diam sed sed dolor stet amet eirmod</p> --}}
                     </div>
                 </div>
             </div>
