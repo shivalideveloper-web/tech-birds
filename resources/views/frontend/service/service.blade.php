@@ -29,69 +29,83 @@
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-                    <h1 class="mb-5">Our Creative <span
-                            class="text-uppercase text-primary bg-light px-2">Services</span></h1>
-                    <p>Aliqu diam
-                        amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                        clita duo justo et tempor eirmod magna dolore erat amet</p>
-                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                        amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                        clita duo justo et tempor eirmod magna dolore erat amet</p>
-                    <div class="d-flex align-items-center bg-light">
-                        <div class="btn-square flex-shrink-0 bg-primary" style="width: 100px; height: 100px;">
-                            <i class="fa fa-phone fa-2x text-white"></i>
-                        </div>
-                        <div class="px-3">
-                            <h3>+0123456789</h3>
-                            <span>Call us direct 24/7 for get a free consultation</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="row g-0">
-                        <div class="col-md-6 wow fadeIn" data-wow-delay="0.2s">
-                            <div class="service-item h-100 d-flex flex-column justify-content-center bg-primary">
-                                <a href="" class="service-img position-relative mb-4">
-                                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/service-1.jpg')}}" alt="">
-                                    <h3>Interior Design</h3>
-                                </a>
-                                <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                    stet diam sed stet lorem.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="service-item h-100 d-flex flex-column justify-content-center bg-light">
-                                <a href="" class="service-img position-relative mb-4">
-                                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/service-2.jpg')}}" alt="">
-                                    <h3>Implement</h3>
-                                </a>
-                                <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                    stet diam sed stet lorem.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 wow fadeIn" data-wow-delay="0.6s">
-                            <div class="service-item h-100 d-flex flex-column justify-content-center bg-light">
-                                <a href="" class="service-img position-relative mb-4">
-                                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/service-3.jpg')}}" alt="">
-                                    <h3>Renovation</h3>
-                                </a>
-                                <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                    stet diam sed stet lorem.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 wow fadeIn" data-wow-delay="0.8s">
-                            <div class="service-item h-100 d-flex flex-column justify-content-center bg-primary">
-                                <a href="" class="service-img position-relative mb-4">
-                                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/service-4.jpg')}}" alt="">
-                                    <h3>Commercial</h3>
-                                </a>
-                                <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                    stet diam sed stet lorem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+    <h1 class="mb-5">Our Digital <span
+            class="text-uppercase text-primary bg-light px-2">Services</span></h1>
+<p>We create powerful digital solutions through web design, web development, graphic design, and digital marketing, helping businesses grow online, attract customers and build a strong digital identity.
+</p>
+
+<p class="mb-5">
+Our focus is on building digital solutions that create measurable impact—improving performance, increasing engagement and helping businesses grow in a competitive market.
+</p>
+
+    <div class="d-flex align-items-center bg-light">
+        <div class="btn-square flex-shrink-0 bg-primary" style="width: 100px; height: 100px;">
+            <i class="fa fa-phone fa-2x text-white"></i>
+        </div>
+        <div class="px-3">
+            <h3>+0123456789</h3>
+            <span>Contact us anytime for a free consultation on your digital project</span>
+        </div>
+    </div>
+</div>
+             <div class="col-lg-7">
+    <div class="row g-0">
+        
+        <!-- Web Designing -->
+        <div class="col-md-6 wow fadeIn" data-wow-delay="0.2s">
+            <div class="service-item h-100 d-flex flex-column justify-content-center bg-primary">
+                <a href="" class="service-img position-relative mb-4">
+                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/designing.jpg')}}" alt="">
+                    <h3>Web Designing</h3>
+                </a>
+                <p class="mb-0">
+                    We create modern, responsive, and user-friendly website designs that enhance user experience and reflect your brand identity.
+                </p>
+            </div>
+        </div>
+
+        <!-- Web Development -->
+        <div class="col-md-6 wow fadeIn" data-wow-delay="0.4s">
+            <div class="service-item h-100 d-flex flex-column justify-content-center bg-light">
+                <a href="" class="service-img position-relative mb-4">
+                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/development.jpg')}}" alt="">
+                    <h3>Web Development</h3>
+                </a>
+                <p class="mb-0">
+                    We build fast, secure, and scalable websites using the latest technologies to ensure high performance and reliability.
+                </p>
+            </div>
+        </div>
+
+        <!-- Digital Marketing -->
+        <div class="col-md-6 wow fadeIn" data-wow-delay="0.6s">
+            <div class="service-item h-100 d-flex flex-column justify-content-center bg-light">
+                <a href="" class="service-img position-relative mb-4">
+                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/marketing.jpg')}}" alt="">
+                    <h3>Digital Marketing</h3>
+                </a>
+                <p class="mb-0">
+                    Grow your business online with SEO, social media marketing, and targeted campaigns that drive traffic and conversions.
+                </p>
+            </div>
+        </div>
+
+        <!-- Graphic Designing -->
+        <div class="col-md-6 wow fadeIn" data-wow-delay="0.8s">
+            <div class="service-item h-100 d-flex flex-column justify-content-center bg-primary">
+                <a href="" class="service-img position-relative mb-4">
+                    <img class="img-fluid w-100" src="{{asset('frontend/assets/img/gr-designing.jpg')}}" alt="">
+                    <h3>Graphic Designing</h3>
+                </a>
+                <p class="mb-0">
+                    Creative and eye-catching designs for branding, social media and marketing materials that make your business stand out.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
             </div>
         </div>
     </div>
@@ -99,73 +113,80 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-xxl pb-5">
-        <div class="container pb-5">
-            <div class="row justify-content-center">
-                <div class="col-md-12 col-lg-9">
-                    <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.2s">
-                        <div class="testimonial-item">
-                            <div class="row g-5 align-items-center">
-                                <div class="col-md-6">
-                                    <div class="testimonial-img">
-                                        <img class="img-fluid" src="{{asset('frontend/assets/img/testimonial-1.jpg')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="testimonial-text pb-5 pb-md-0">
-                                        <h3>Sustainable Material</h3>
-                                        <p>Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed
-                                            stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna
-                                            dolore erat
-                                            amet</p>
-                                        <h5 class="mb-0">Boris Johnson</h5>
-                                    </div>
+   <div class="container-xxl py-5">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9">
+                <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.2s">
+
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-item">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-md-6">
+                                <div class="testimonial-img">
+                                    <img class="img-fluid" src="{{asset('frontend/assets/img/testimonial-1.jpg')}}" alt="">
                                 </div>
                             </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <div class="row g-5 align-items-center">
-                                <div class="col-md-6">
-                                    <div class="testimonial-img">
-                                        <img class="img-fluid" src="{{asset('frontend/assets/img/testimonial-2.jpg')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="testimonial-text pb-5 pb-md-0">
-                                        <h3>Customer Satisfaction</h3>
-                                        <p>Clita erat ipsum et lorem et sit, sed
-                                            stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna
-                                            dolore erat
-                                            amet</p>
-                                        <h5 class="mb-0">Alexander Bell</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <div class="row g-5 align-items-center">
-                                <div class="col-md-6">
-                                    <div class="testimonial-img">
-                                        <img class="img-fluid" src="{{asset('frontend/assets/img/testimonial-3.jpg')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="testimonial-text pb-5 pb-md-0">
-                                        <h3>Budget Friendly</h3>
-                                        <p>Diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed
-                                            stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna
-                                            dolore erat
-                                            amet</p>
-                                        <h5 class="mb-0">Bradley Gordon</h5>
-                                    </div>
+                            <div class="col-md-6">
+                                <div class="testimonial-text pb-5 pb-md-0">
+                                    <h3>Professional Website Development</h3>
+                                    <p>
+                                        The team delivered a fast, responsive, and modern website for our business.
+                                        Our online presence improved significantly, and customer engagement increased.
+                                    </p>
+                                    <h5 class="mb-0">Rahul Mehta</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-item">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-md-6">
+                                <div class="testimonial-img">
+                                    <img class="img-fluid" src="{{asset('frontend/assets/img/testimonial-2.jpg')}}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="testimonial-text pb-5 pb-md-0">
+                                    <h3>Creative Logo Design</h3>
+                                    <p>
+                                        We received a unique and professional logo that perfectly represents our brand.
+                                        The design process was smooth and exceeded our expectations.
+                                    </p>
+                                    <h5 class="mb-0">Priya Sharma</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-item">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-md-6">
+                                <div class="testimonial-img">
+                                    <img class="img-fluid" src="{{asset('frontend/assets/img/testimonial-3.jpg')}}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="testimonial-text pb-5 pb-md-0">
+                                    <h3>SEO & Digital Growth</h3>
+                                    <p>
+                                        Their SEO services helped us rank higher on search engines and bring in more traffic.
+                                        We saw real growth in leads within a few months.
+                                    </p>
+                                    <h5 class="mb-0">Amit Verma</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
+</div>
     <!-- Testimonial End -->
 
 
@@ -185,7 +206,7 @@
                             <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-2 me-2"><i
                                     class="fa fa-paper-plane text-primary fs-4"></i></button>
                         </div>
-                        <p class="mb-0">Diam sed sed dolor stet amet eirmod</p>
+                        {{-- <p class="mb-0">Diam sed sed dolor stet amet eirmod</p> --}}
                     </div>
                 </div>
             </div>
