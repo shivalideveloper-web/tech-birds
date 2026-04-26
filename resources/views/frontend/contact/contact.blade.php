@@ -27,50 +27,91 @@
 
     <!-- Contact Start -->
     <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="text-center wow fadeIn" data-wow-delay="0.1s">
-                <h1 class="mb-5">Have Any Query? <span class="text-uppercase text-primary bg-light px-2">Contact Us</span></h1>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-7">
-                    <h4 class="text-center lh-base mb-4">Receive messages instantly with our PHP and Ajax contact form - available in the <a class="text-decoration-underline" href="https://htmlcodex.com/downloading/?item=3587">Pro Version</a> only.</h4>
-                    <div class="wow fadeIn" data-wow-delay="0.3s">
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                        <label for="name">Your Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                        <label for="email">Your Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+    <div class="container py-5">
+
+        <!-- Heading -->
+        <div class="text-center wow fadeIn" data-wow-delay="0.1s">
+            <h1 class="mb-4">
+                Have a Project in Mind? 
+                <span class="text-uppercase text-primary bg-light px-2">Contact Us</span>
+            </h1>
+            <p class="mb-5">
+                Let's discuss your website, logo design or SEO requirements.
+                Our team will help you build a strong digital presence.
+            </p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+
+                <div class="wow fadeIn" data-wow-delay="0.3s">
+                    <form action="#" method="POST">
+                        <div class="row g-3">
+
+                            <!-- Name -->
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                                    <label for="name">Your Name</label>
                                 </div>
                             </div>
-                        </form>
-                    </div>
+
+                            <!-- Email -->
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+
+                            <!-- Service -->
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <select class="form-control" id="service" name="service">
+                                        <option value="">Select Service</option>
+                                        <option>Website Development</option>
+                                        <option>Logo Design</option>
+                                        <option>SEO Optimization</option>
+                                        <option>Digital Marketing</option>
+                                    </select>
+                                    <label for="service">Select Service</label>
+                                </div>
+                            </div>
+
+                            <!-- Subject -->
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" id="message" name="message"
+                                        placeholder="Tell us about your project"
+                                        style="height: 150px" required></textarea>
+                                    <label for="message">Project Details</label>
+                                </div>
+                            </div>
+
+                            <!-- Submit -->
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">
+                                    Send Message
+                                </button>
+                            </div>
+
+                        </div>
+                    </form>
                 </div>
+
             </div>
         </div>
+
     </div>
+</div> 
     <!-- Contact End -->
         
 
@@ -90,7 +131,7 @@
                             <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-2 me-2"><i
                                     class="fa fa-paper-plane text-primary fs-4"></i></button>
                         </div>
-                        <p class="mb-0">Diam sed sed dolor stet amet eirmod</p>
+                        {{-- <p class="mb-0">Diam sed sed dolor stet amet eirmod</p> --}}
                     </div>
                 </div>
             </div>
